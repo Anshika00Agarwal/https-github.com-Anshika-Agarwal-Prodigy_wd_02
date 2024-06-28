@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('bg.jpeg') no-repeat center center  fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.stopwatch{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(203, 184, 184, 0.1);
+   
+}
+.display{
+    font-size: 48px;
+    margin-bottom: 20px;
+    
+}
+.buttons button{
+    font-size: 23px;
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background: #da9b9b;
+    color: rgb(8, 7, 7);
+    border-radius: 7px;
+    cursor: pointer;
+}
+.button button:disabled {
+
+    background: #ccc;
+    cursor: not-allowed;
+}
+.laps{
+    margin-top: 20px;
+    border-bottom: left;
+}
+.laps div{
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
